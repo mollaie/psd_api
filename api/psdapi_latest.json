@@ -1,0 +1,214 @@
+{
+    "Id": "27eebdb99e393aa13d0ef149df98076612693d3a6e1f80b3cfa80477d410197a",
+    "Created": "2022-11-14T14:53:54.560339134Z",
+    "Path": "dotnet",
+    "Args": [
+        "psd_api.dll"
+    ],
+    "State": {
+        "Status": "created",
+        "Running": false,
+        "Paused": false,
+        "Restarting": false,
+        "OOMKilled": false,
+        "Dead": false,
+        "Pid": 0,
+        "ExitCode": 0,
+        "Error": "",
+        "StartedAt": "0001-01-01T00:00:00Z",
+        "FinishedAt": "0001-01-01T00:00:00Z"
+    },
+    "Image": "sha256:b57fa7b5f80bb6bbbea185875e42b3852bb42fc6c45d8251b61aa9f5fcbb306d",
+    "ResolvConfPath": "",
+    "HostnamePath": "",
+    "HostsPath": "",
+    "LogPath": "/var/lib/docker/containers/27eebdb99e393aa13d0ef149df98076612693d3a6e1f80b3cfa80477d410197a/27eebdb99e393aa13d0ef149df98076612693d3a6e1f80b3cfa80477d410197a-json.log",
+    "Name": "/pedantic_shockley",
+    "RestartCount": 0,
+    "Driver": "overlay2",
+    "Platform": "linux",
+    "MountLabel": "",
+    "ProcessLabel": "",
+    "AppArmorProfile": "",
+    "ExecIDs": null,
+    "HostConfig": {
+        "Binds": [],
+        "ContainerIDFile": "",
+        "LogConfig": {
+            "Type": "json-file",
+            "Config": {}
+        },
+        "NetworkMode": "default",
+        "PortBindings": {
+            "5000/tcp": [
+                {
+                    "HostIp": "0.0.0.0",
+                    "HostPort": "5000"
+                }
+            ]
+        },
+        "RestartPolicy": {
+            "Name": "",
+            "MaximumRetryCount": 0
+        },
+        "AutoRemove": false,
+        "VolumeDriver": "",
+        "VolumesFrom": null,
+        "CapAdd": null,
+        "CapDrop": null,
+        "CgroupnsMode": "private",
+        "Dns": null,
+        "DnsOptions": null,
+        "DnsSearch": null,
+        "ExtraHosts": null,
+        "GroupAdd": null,
+        "IpcMode": "private",
+        "Cgroup": "",
+        "Links": null,
+        "OomScoreAdj": 0,
+        "PidMode": "",
+        "Privileged": false,
+        "PublishAllPorts": false,
+        "ReadonlyRootfs": false,
+        "SecurityOpt": null,
+        "UTSMode": "",
+        "UsernsMode": "",
+        "ShmSize": 67108864,
+        "Runtime": "runc",
+        "ConsoleSize": [
+            0,
+            0
+        ],
+        "Isolation": "",
+        "CpuShares": 0,
+        "Memory": 0,
+        "NanoCpus": 0,
+        "CgroupParent": "",
+        "BlkioWeight": 0,
+        "BlkioWeightDevice": null,
+        "BlkioDeviceReadBps": null,
+        "BlkioDeviceWriteBps": null,
+        "BlkioDeviceReadIOps": null,
+        "BlkioDeviceWriteIOps": null,
+        "CpuPeriod": 0,
+        "CpuQuota": 0,
+        "CpuRealtimePeriod": 0,
+        "CpuRealtimeRuntime": 0,
+        "CpusetCpus": "",
+        "CpusetMems": "",
+        "Devices": null,
+        "DeviceCgroupRules": null,
+        "DeviceRequests": null,
+        "KernelMemory": 0,
+        "KernelMemoryTCP": 0,
+        "MemoryReservation": 0,
+        "MemorySwap": 0,
+        "MemorySwappiness": null,
+        "OomKillDisable": false,
+        "PidsLimit": null,
+        "Ulimits": null,
+        "CpuCount": 0,
+        "CpuPercent": 0,
+        "IOMaximumIOps": 0,
+        "IOMaximumBandwidth": 0,
+        "MaskedPaths": [
+            "/proc/asound",
+            "/proc/acpi",
+            "/proc/kcore",
+            "/proc/keys",
+            "/proc/latency_stats",
+            "/proc/timer_list",
+            "/proc/timer_stats",
+            "/proc/sched_debug",
+            "/proc/scsi",
+            "/sys/firmware"
+        ],
+        "ReadonlyPaths": [
+            "/proc/bus",
+            "/proc/fs",
+            "/proc/irq",
+            "/proc/sys",
+            "/proc/sysrq-trigger"
+        ]
+    },
+    "GraphDriver": {
+        "Data": {
+            "LowerDir": "/var/lib/docker/overlay2/9e933cfff637570189a6dd5c43500cc4c918ad7adf7008c9082ce47d047a60f0-init/diff:/var/lib/docker/overlay2/y3el0xf7exy8ul4s2cm7x5391/diff:/var/lib/docker/overlay2/i7pnu3wdqd143tnmcdgbljtsu/diff:/var/lib/docker/overlay2/tg3ahqm73jyww18x85nhvfcbo/diff:/var/lib/docker/overlay2/vq92fonk6qwd4o31gi38f3kwg/diff:/var/lib/docker/overlay2/535513d0ce3131e741b4435cea9bc40d14b393533aa3747cf0961bb1503c87e2/diff:/var/lib/docker/overlay2/b36ac00e988c3f7a176ecf2ddd7606d54955479daa12669caac7c544fdc80c82/diff:/var/lib/docker/overlay2/14933c9dadcfefc1bb668084d23910387c7814716635f1ac4b9b203a12ae8e50/diff:/var/lib/docker/overlay2/538febf0bd9cd52831b62d45c65ce7072c823a64b066c35287d0eec5890a25a9/diff:/var/lib/docker/overlay2/42a08fa49718aeec980f3bf9954de3d3e218a4fd5e5610a5012efd6e0c218793/diff",
+            "MergedDir": "/var/lib/docker/overlay2/9e933cfff637570189a6dd5c43500cc4c918ad7adf7008c9082ce47d047a60f0/merged",
+            "UpperDir": "/var/lib/docker/overlay2/9e933cfff637570189a6dd5c43500cc4c918ad7adf7008c9082ce47d047a60f0/diff",
+            "WorkDir": "/var/lib/docker/overlay2/9e933cfff637570189a6dd5c43500cc4c918ad7adf7008c9082ce47d047a60f0/work"
+        },
+        "Name": "overlay2"
+    },
+    "Mounts": [],
+    "Config": {
+        "Hostname": "27eebdb99e39",
+        "Domainname": "",
+        "User": "appuser",
+        "AttachStdin": false,
+        "AttachStdout": false,
+        "AttachStderr": false,
+        "ExposedPorts": {
+            "5000/tcp": {}
+        },
+        "Tty": false,
+        "OpenStdin": false,
+        "StdinOnce": false,
+        "Env": [
+            "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+            "ASPNETCORE_URLS=http://+:5000",
+            "DOTNET_RUNNING_IN_CONTAINER=true",
+            "DOTNET_VERSION=6.0.11",
+            "ASPNET_VERSION=6.0.11"
+        ],
+        "Cmd": null,
+        "Image": "psdapi:latest",
+        "Volumes": null,
+        "WorkingDir": "/app",
+        "Entrypoint": [
+            "dotnet",
+            "psd_api.dll"
+        ],
+        "OnBuild": null,
+        "Labels": {
+            "com.microsoft.created-by": "visual-studio-code"
+        }
+    },
+    "NetworkSettings": {
+        "Bridge": "",
+        "SandboxID": "",
+        "HairpinMode": false,
+        "LinkLocalIPv6Address": "",
+        "LinkLocalIPv6PrefixLen": 0,
+        "Ports": {},
+        "SandboxKey": "",
+        "SecondaryIPAddresses": null,
+        "SecondaryIPv6Addresses": null,
+        "EndpointID": "",
+        "Gateway": "",
+        "GlobalIPv6Address": "",
+        "GlobalIPv6PrefixLen": 0,
+        "IPAddress": "",
+        "IPPrefixLen": 0,
+        "IPv6Gateway": "",
+        "MacAddress": "",
+        "Networks": {
+            "bridge": {
+                "IPAMConfig": null,
+                "Links": null,
+                "Aliases": null,
+                "NetworkID": "",
+                "EndpointID": "",
+                "Gateway": "",
+                "IPAddress": "",
+                "IPPrefixLen": 0,
+                "IPv6Gateway": "",
+                "GlobalIPv6Address": "",
+                "GlobalIPv6PrefixLen": 0,
+                "MacAddress": "",
+                "DriverOpts": null
+            }
+        }
+    },
+    "CreatedTime": 1668437634560
+}
